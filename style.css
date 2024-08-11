@@ -1,5 +1,4 @@
 .fitness{
-
     display: flex;
     justify-content: space-between;
     max-width: 1400px;
@@ -19,7 +18,7 @@ gap: 15px;
 
 
 .fitness-area{
-    color:rgb(230, 83, 60);
+ color:rgb(230, 83, 60);
   font-family: "Inter", sans-serif;
   font-size: 35px;
   font-weight: 800;
@@ -45,6 +44,22 @@ gap: 15px;
     font-family: "Miama", sans-serif;
                                                 
   }
-  
-  
+ .banner-childs img{
+    width: 349px;
+height: 580px;
+left: 877px;
+    bottom:32px;
+    position: absolute;
 
+ } 
+ .banner-main{
+    display: flex;
+    align-items: center;
+ }
+.banner-childs{
+    width:47%;
+}  
+.banner-childs font{
+    font-size: 78px;
+     font-weight:900;
+}
