@@ -1,0 +1,50 @@
+.fitness{
+
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+.navbar-wrapper{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.home {
+color :  rgb(255, 255, 255);
+border: 2px solid gray;
+border-radius: 30px;
+padding: 7px;
+gap: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.fitness-area{
+    color:rgb(230, 83, 60);
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  font-style: italic;
+  gap: 10px;
+}
+.nav-hamburger-menu{
+
+}
+.fitness > div{
+    margin-top: 20px;
+
+}
+.main-content{
+    max-width: 1440px;
+    margin:0 auto;
+    height:715px;
+    border:2px solid red
+}
+       @import url('https://fonts.cdnfonts.com/css/miama');        
+
+.shape {
+    font-family: "Miama", sans-serif;
+                                                
+  }
+  
+  
+
