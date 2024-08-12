@@ -1,10 +1,12 @@
 .fitness{
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
+    max-width: 1300px;
+   
 }
 .navbar-wrapper{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    width: -30%;
 }
 .home {
 color :  rgb(255, 255, 255);
@@ -24,14 +26,16 @@ gap: 15px;
   font-weight: 800;
   font-style: italic;
   gap: 10px;
+ left:30%;
+ margin-left: 80px;
 }
 .nav-hamburger-menu{
 
 }
-.fitness > div{
-    margin-top: 20px;
+/* .fitness > div{
+    margin-top: 20px; */
 
-}
+
 .main-content{
     max-width: 1440px;
     margin:0 auto;
@@ -46,8 +50,8 @@ gap: 15px;
   }
  .banner-childs img{
     width: 349px;
-height: 580px;
-left: 877px;
+  height: 580px;
+  left: 877px;
     bottom:32px;
     position: absolute;
 
@@ -55,11 +59,62 @@ left: 877px;
  .banner-main{
     display: flex;
     align-items: center;
+    /* background-color: rgb(17, 17, 17)
+    rgba(119, 119, 119, 0);
+     */
  }
 .banner-childs{
     width:47%;
+
 }  
-.banner-childs font{
-    font-size: 78px;
+.banner-childs{
+    font-size: 40px;
      font-weight:900;
+     top: 100px;
+     align-items: center;
+     margin-left: 80px;
+}
+.section-500{
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+  background: rgba(255, 255, 255, 0.258);
+  position: absolute;
+width: max-content;
+ left: 1107px;
+top: 260px;
+align-items: center;
+
+}
+.round{
+    color:red
+}
+.div-350{
+    padding: 10px;
+    border: 1px solid rgba(66, 57, 57, 0.731);
+    position: absolute;
+    border-radius:20px;
+    left:830px;
+    bottom:100px;
+}
+.Change-Your-Habits{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    align-items: center;
+    margin-left:90px;
+    margin-right: 70px;
+
+}
+.movement {
+ display:flex;
+  /* background: rgb(0, 0, 0); */
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  
+}
+.description{
+ font-family: "Inter", sans-serif; 
+font-weight: 400;
+font-size: 16px;
+color: rgba(255, 255, 255, 0.5);}
+
+.movement img{
+    border-radius: 50%;
 }
