@@ -1,0 +1,44 @@
+@media screen and (max-width:576px) {
+    .nav-hamburgur-menu{
+        display: block;
+        color: white;       
+      } 
+      .home{
+        flex-direction: column;
+      }
+      .fitness-area{
+        flex-direction: column;
+      }
+      .home{
+        display: none;
+      }
+        .run-an-extra {
+           flex-direction: column;
+
+      }
+      .movement{
+         flex-direction: column; 
+      }
+      .meet-our-team-mid{
+       grid-template-columns: repeat(1,1fr);
+      }
+      .banner-main{
+        flex-direction: column;
+      }
+      .full-cal-chart{
+        flex-direction: column;
+        /* padding:10px; */
+      }
+      .run-an-extra-child img{
+        width: 130%;
+      }
+      /* .last-section{
+        grid-template-columns: repeat(1,1fr);
+      } */
+      .get-started{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+
+      }
+}
