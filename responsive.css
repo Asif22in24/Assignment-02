@@ -32,13 +32,11 @@
       .run-an-extra-child img{
         width: 130%;
       }
-      /* .last-section{
+      .last-section{
         grid-template-columns: repeat(1,1fr);
-      } */
-      .get-started{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        
-
-      }
+      } 
+     
+       .diet-imges{
+           grid-template-columns: repeat(1,1fr);
+       }
 }
