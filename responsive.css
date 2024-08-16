@@ -19,7 +19,7 @@
       .movement{
          flex-direction: column; 
       }
-      .meet-our-team-mid{
+      .container{
        grid-template-columns: repeat(1,1fr);
       }
       .banner-main{
@@ -37,6 +37,17 @@
       } 
      
        .diet-imges{
-           grid-template-columns: repeat(1,1fr);
+          flex-direction: column;
+       }
+       .image-all{
+        margin-right: 45%;
+       }
+       .section-350{
+        width: 170px;
+        left:15%;
+       }
+    .section-500{
+        width: 170px;
+        left:100%;
        }
 }
