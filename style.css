@@ -213,24 +213,26 @@ hr.solid {
   }
   .full-cal-chart{
     display: flex;
-     justify-content: space-between; 
+     justify-content: space-around; 
     background-color:rgb(34, 34, 34) ;
-    
+    gap:40px;
   }
   .chart{
-    margin-left:10% ;
+    margin-left:3% ;
+    width:70%;
+    height:100%;
   }
   .table,th,td{
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
   .bmi-child{
-width: 50%;
+width: 30%;
 
 
   }
   .bmi-parent{
-    display: flex;
-    /* flex-wrap: wrap;  */
+    display: grid;
+    grid-template-columns:repeat(2,1fr);  
     /* box-sizing: content-box; */
   }
   .bmi-parent input,textarea,select{
